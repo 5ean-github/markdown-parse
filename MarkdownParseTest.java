@@ -9,7 +9,7 @@ import java.util.*;
 public class MarkdownParseTest {
     @Test
     public void addition() {
-        assertEquals(2, 1 + 1);
+        assertEquals(2, 1);
     }
     public void parseTestOne() throws IOException{
         Path fileName = Path.of("test-file.md");
